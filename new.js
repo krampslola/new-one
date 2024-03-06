@@ -20,3 +20,9 @@ var allIndex = this.rows.indexOf(row),
 			this.dispatchExternal("dataChanged", this.getData());
 		}
 	}
+return new Promise((resolve, reject) => {
+			pos = this.findAddRowPos(pos);
+			
+			if(!Array.isArray(data)){
+				data = [data];
+			}
