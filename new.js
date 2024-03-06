@@ -26,3 +26,4 @@ return new Promise((resolve, reject) => {
 			if(!Array.isArray(data)){
 				data = [data];
 			}
+//yes
